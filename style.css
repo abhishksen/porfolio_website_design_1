@@ -114,7 +114,8 @@ button:active {
   transform: scale(1.1);
 }
 .model {
-  height: 519px;
+/*   height: 519px;  // fixes the image height  */
+  height: 587.5px;
   position: absolute;
   bottom: 0px;
   left: 70%;
@@ -215,15 +216,12 @@ background-color: #000000;
     justify-content: space-between;
 }
 .box-1{
-    /* background-image: url(model.jpg); */
     background-color: #525252;
 }
 .box-2{
-    /* background-image: url(model.jpg); */
     background-color: #424242;
 }
 .box-3{
-    /* background-image: url(model.jpg); */
     background-color: #525252;
 }
 .box-1 span,
